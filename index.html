@@ -45,14 +45,25 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
-
-
+        </div>
     </header>
-    <section>
+    <!--main section-->
+    <section class="container-fluid">
+        <div class="row row-table"> <!--allow us to create a table structure so that our columns will remain the same height, regardless of content-->
+        <!--he row-table class specifies the use of a table whereas section-column specifies the use of a table cell, which will give us evenly sized columns in terms of height.-->
+            <div class="col-md-8 bg-color-three-reasons section-column">
+                <div class="row">
+                    <div class="col"> <!-- will take up the space available-->
+                        <h3 class="section-heading uppercase">About Me</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
+
+    <!--Footer section-->
     <footer class="container-fluid">
         <!--full width flexible container-->
         <div id="footer-details" class="row">
@@ -78,7 +89,8 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
-                    <li class="list-inline-item"> <!-- every list-inline in boostrap needs a list-inline item-->
+                    <li class="list-inline-item">
+                        <!-- every list-inline in boostrap needs a list-inline item-->
                         <a target="_blank" href="#">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
